@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d3d3d"
+    tools:context=".DetalleDestileria">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Volumen de Comercio"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/volumencomercio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Conteo de Lotes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/conteolotes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Nombre"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Codigo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/codigo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Puja Ganadora Minima"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/pujaganadoraminima"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Puja Ganadora Maxima"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/pujaganadoramax"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="191dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="84dp"
+        android:text="Detalles Destileria"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="44dp"
+        android:text="Fecha"
+        android:textColor="@color/white"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pujaganadoramax"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Puja ganadora maxima"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fecha" />
+
+    <TextView
+        android:id="@+id/conteolotes"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Conteo de lotes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volumencomercio" />
+
+    <TextView
+        android:id="@+id/volumencomercio"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Volumen de comercio"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pujaganadoramedia" />
+
+    <TextView
+        android:id="@+id/pujaganadoramedia"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="puja ganadora media"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pujaganadoraminima" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Nombre"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conteolotes" />
+
+    <TextView
+        android:id="@+id/pujaganadoraminima"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Puja ganadora minima"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pujaganadoramax" />
+
+    <TextView
+        android:id="@+id/codigo"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Codigo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="44dp"
+        android:text="Fecha"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/fecha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="167dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Puja Ganadora Media"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/pujaganadoramedia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
